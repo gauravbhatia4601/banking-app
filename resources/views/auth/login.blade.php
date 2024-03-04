@@ -29,7 +29,7 @@
                 </div>
                 <div class="mb-4">
                     <label class="form-label required">Password</label>
-                    <input type="text" class="form-control" placeholder="Password" autocomplete="off" name="password"/>
+                    <input type="password" class="form-control" placeholder="Password" autocomplete="off" name="password"/>
                 </div>
                 <label class="form-check">
                     <input type="checkbox" class="form-check-input" name="remember"/>
