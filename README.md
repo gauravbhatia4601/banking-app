@@ -28,15 +28,6 @@ This is a small banking application developed in PHP using the Laravel framework
 8. **Logout**
    - Allows users to securely log out of their accounts.
 
-## Mock-up
-
-A mock-up of the application's interface is available [here](https://tabler.github.io/). The mock-up is created using the Tabler CSS framework, but developers are free to use any CSS framework of their choice.
-
-## Notes
-
-- There are no "right answers" in this assignment. The primary goal is to gauge the developer's skills and understand their approach to relevant tasks.
-- Developers are encouraged to write clean and maintainable code while implementing the functionalities of the application.
-
 ## Installation
 
 To set up the application locally, follow these steps:
@@ -46,9 +37,10 @@ To set up the application locally, follow these steps:
 3. Install dependencies using Composer: `composer install`.
 4. Configure your environment variables by copying the `.env.example` file to `.env` and updating it with your database and other relevant configuration details.
 5. Generate a new application key: `php artisan key:generate`.
-6. Run database migrations: `php artisan migrate`.
-7. Start the development server: `php artisan serve`.
-8. Access the application in your web browser at the specified address.
+6. Create new database, name it as `banking`
+7. Run database migrations: `php artisan migrate`.
+8. Start the development server: `php artisan serve`.
+9. Access the application in your web browser at the specified address.
 
 ## Contributing
 
